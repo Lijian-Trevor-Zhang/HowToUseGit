@@ -19,6 +19,11 @@ clean:
 	rm -rf dynamic dynamic2 static dlopen
 	make -C ./sayhi clean
 
+help:
+	@echo "Please use below commands to make or clean executables:"
+	@echo "  make all"
+	@echo "  make clean"
+
 #// 若无法找到动态链接库文件
 #总结下来主要有3种方法：
 #1. 用ln将需要的so文件链接到/usr/lib或者/lib这两个默认的目录下边
