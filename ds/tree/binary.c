@@ -5,13 +5,6 @@
 #include <memory.h>
 #include "binary.h"
 
-
-typedef struct BiNode {
-    int data;
-    struct BiNode *left;
-    struct BiNode *right;
-} BiNode, *BiTree;
-
 int *globalArgs;
 int globalIndex = 0;
 
